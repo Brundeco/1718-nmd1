@@ -1,0 +1,39 @@
+
+body {
+	font-family: 'futura pt', sans-serif;
+	text-align: center;
+	min-height: 100vh;
+	margin-top: 25px;
+	color: #2d2d2d;
+}
+
+main {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+header .flex-item img {
+	width: 165px;
+	display: inline-block;
+	margin: 0px auto 35px;
+}
+
+header .flex-item h1, header .flex-item h2, header .flex-item h3 {
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+header .flex-item h2 {
+	color: #b3b3b3;
+	font-weight: lighter;
+}
+
+.flex-cont {
+	margin-top: 80px;
+}
+
+.flex-cont .flex-item p {
+	width: 70%;
+	margin: 0 auto;
+	font-weight: lighter;
+}
