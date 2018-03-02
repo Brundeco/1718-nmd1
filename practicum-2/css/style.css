@@ -1,10 +1,25 @@
+a {
+	text-decoration: none;
+}
 
 body {
 	font-family: 'futura pt', sans-serif;
 	text-align: center;
 	min-height: 100vh;
-	margin-top: 25px;
+	margin: 0;
 	color: #2d2d2d;
+	padding-bottom: 50px;
+}
+
+.top {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.center {
+	background-image: url("../images/Silver-Blur-Background-Wallpaper.jpg");
+	background-size: cover;
+	padding: 80px 0px 100px;
 }
 
 main {
@@ -16,6 +31,8 @@ header .flex-item img {
 	width: 165px;
 	display: inline-block;
 	margin: 0px auto 35px;
+/*	box-shadow: 17px 24px 57px -14px rgba(0,0,0,0.5);*/
+	border-radius: 85px;
 }
 
 header .flex-item h1, header .flex-item h2, header .flex-item h3 {
@@ -37,3 +54,36 @@ header .flex-item h2 {
 	margin: 0 auto;
 	font-weight: lighter;
 }
+
+.center .flex-cont .flex-item h3 {
+	text-transform: uppercase;
+}
+
+.flex-item-btn h3 {
+	width: 80px;
+	border: 2px solid #2d2d2d;
+	padding: 15px 40px;
+	border-radius: 20px;
+	margin: 0 auto;
+	color: #2d2d2d;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-top: 100px;
+	transition: ease-in-out 0.2s;
+}
+
+.flex-item-btn h3:hover {
+	background-color: #2d2d2d;
+	transition: ease-in-out 0.2s;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
