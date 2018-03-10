@@ -182,7 +182,7 @@ header .flex-item h3 {
 
 .kennis {
 	width: 80%;
-	background-image: url("../images/wall2.png");
+	background-image: url("../images/kennis2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
@@ -201,6 +201,7 @@ header .flex-item h3 {
 	display: inline-block;
 	margin-bottom: 100px;
 	vertical-align: top;
+	font-size: 150%;
 }
 
 .interesse ul li {
@@ -208,6 +209,11 @@ header .flex-item h3 {
 	margin: 30px;
 	color: #35636e;
 	font-weight: 500;
+}
+
+
+.hover-intrests ul a li i:hover {
+	font-size: 180%;
 }
 
 footer {
